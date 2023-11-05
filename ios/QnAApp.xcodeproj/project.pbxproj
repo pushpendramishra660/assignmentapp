@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* QnAAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* QnAAppTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-QnAApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-QnAApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-QnAApp-QnAAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-QnAApp-QnAAppTests.a */; };
+		189A82DF933F2F7C22070D09 /* libPods-QnAApp-QnAAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36059DBE7560F846600290BD /* libPods-QnAApp-QnAAppTests.a */; };
+		56476EDC2299590DC3A5C46C /* libPods-QnAApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA64E2B195471081E6E5A2B6 /* libPods-QnAApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -36,14 +36,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = QnAApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = QnAApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = QnAApp/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-QnAApp-QnAAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QnAApp-QnAAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36059DBE7560F846600290BD /* libPods-QnAApp-QnAAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QnAApp-QnAAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-QnAApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QnAApp.debug.xcconfig"; path = "Target Support Files/Pods-QnAApp/Pods-QnAApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-QnAApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QnAApp.release.xcconfig"; path = "Target Support Files/Pods-QnAApp/Pods-QnAApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-QnAApp-QnAAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QnAApp-QnAAppTests.debug.xcconfig"; path = "Target Support Files/Pods-QnAApp-QnAAppTests/Pods-QnAApp-QnAAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-QnAApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QnAApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = QnAApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-QnAApp-QnAAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QnAApp-QnAAppTests.release.xcconfig"; path = "Target Support Files/Pods-QnAApp-QnAAppTests/Pods-QnAApp-QnAAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ABD1E7892AF7F9DD00A1F77E /* QnAApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = QnAApp.entitlements; path = QnAApp/QnAApp.entitlements; sourceTree = "<group>"; };
+		DA64E2B195471081E6E5A2B6 /* libPods-QnAApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QnAApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-QnAApp-QnAAppTests.a in Frameworks */,
+				189A82DF933F2F7C22070D09 /* libPods-QnAApp-QnAAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-QnAApp.a in Frameworks */,
+				56476EDC2299590DC3A5C46C /* libPods-QnAApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,8 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-QnAApp.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-QnAApp-QnAAppTests.a */,
+				DA64E2B195471081E6E5A2B6 /* libPods-QnAApp.a */,
+				36059DBE7560F846600290BD /* libPods-QnAApp-QnAAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
