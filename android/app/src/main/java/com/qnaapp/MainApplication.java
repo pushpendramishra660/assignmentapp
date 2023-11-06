@@ -1,6 +1,5 @@
 package com.qnaapp;
-import com.yourapp.SegmentAnalyticsModule;
-
+import com.qnaapp.SegmentAnalyticsModule;
 import android.app.Application;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
