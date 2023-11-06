@@ -3,11 +3,12 @@ import React, {useEffect} from 'react';
 import AppNavigator from './src/navigations';
 import {ThemeProvider} from 'styled-components/native';
 import theme from './src/theme';
-import {checkAndRequestLocationPermission} from './src/helper';
+import {checkAndRequestLocationPermission,checkAndRequestNotificationPermission} from './src/helper';
 
 const App: React.FC = () => {
   useEffect(() => {
     checkAndRequestLocationPermission();
+    checkAndRequestNotificationPermission();
   }, []);
 
   return (

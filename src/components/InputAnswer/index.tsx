@@ -21,6 +21,7 @@ const InputField = styled.TextInput`
   margin-vertical: 10px;
   padding-horizontal: 8px;
   text-align: center;
+  color:${theme.colors.japaneseIndigo};
 `;
 
 const SubmitButton = styled.Button``;
@@ -31,7 +32,7 @@ const InputAnswer: React.FC<InputAnswerProps> = ({
   questionType,
 }) => {
   const defaultAnswer =
-    lastAnswer || (questionType === QuestionType.Number ? '0' : '');
+    lastAnswer || '';
 
   const [text, setText] = useState(defaultAnswer);
 
@@ -48,7 +49,8 @@ const InputAnswer: React.FC<InputAnswerProps> = ({
       <InputField
         value={text}
         onChangeText={handleInputChange}
-        placeholder="Type your answer"
+        placeholder={questionType === QuestionType.Number ? '0' : "Type your answer"}
+        placeholderTextColor={theme.colors.japaneseIndigo}
       />
       <SubmitButton title="Submit" onPress={handleSubmit} />
     </InputContainer>

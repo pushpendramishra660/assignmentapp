@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "293981587548",
+    "project_id": "qnaapp-f54ff",
+    "storage_bucket": "qnaapp-f54ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293981587548:android:3453ecf4396b5645b13e99",
+        "android_client_info": {
+          "package_name": "com.qnaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARGCS4F8V1B_MgHkwJOUGRa4eOCnPYUbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

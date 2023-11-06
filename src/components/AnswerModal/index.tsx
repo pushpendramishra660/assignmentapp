@@ -34,6 +34,7 @@ const Backdrop = styled.View`
 const QuestionText = styled.Text`
   font-size: 18px;
   margin-bottom: 20px;
+  color:${theme.colors.japaneseIndigo};
 `;
 
 const AnswerModal: React.FC<AnswerModalProps> = ({
