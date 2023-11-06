@@ -1,16 +1,16 @@
-import React from 'react';
-import {TouchableOpacity} from 'react-native';
-import styled from 'styled-components/native';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import {IQuestion, IAnswer} from '../../types/questionsTypes';
-import theme from '../../theme';
+import React from "react";
+import { TouchableOpacity } from "react-native";
+import styled from "styled-components/native";
+import Icon from "react-native-vector-icons/MaterialCommunityIcons";
+import { IQuestion, IAnswer } from "../../types/questionsTypes";
+import theme from "../../theme";
 
 const OptionTopContainer = styled.View`
   flex-direction: column;
   align-items: center;
 `;
 
-const OptionContainer = styled.View<{selected: boolean}>`
+const OptionContainer = styled.View<{ selected: boolean }>`
   flex-direction: row;
   align-items: center;
   margin: 5px 0;
@@ -26,7 +26,7 @@ const VerticalLine = styled.View`
   width: 2px;
 `;
 
-const OptionText = styled.Text<{selected: boolean}>`
+const OptionText = styled.Text<{ selected: boolean }>`
   color: ${theme.colors.japaneseIndigo};
   font-size: 16px;
   margin-left: 10px;
@@ -47,7 +47,7 @@ const Question: React.FC<QuestionProps> = ({
 }) => {
   const isSelected =
     selectedOption &&
-    'questionID' in selectedOption &&
+    "questionID" in selectedOption &&
     selectedOption.questionID === option.id;
 
   return (
@@ -57,12 +57,14 @@ const Question: React.FC<QuestionProps> = ({
         <OptionContainer selected={isSelected!}>
           {isSelected ? (
             <Icon
+              testID="selected-icon"
               name="check-circle-outline"
               size={24}
               color={theme.colors.limeGreen}
             />
           ) : (
             <Icon
+              testID="selected-icon"
               name="checkbox-blank-circle-outline"
               size={24}
               color={theme.colors.japaneseIndigo}
