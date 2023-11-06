@@ -1,6 +1,7 @@
 import {useEffect, useCallback} from 'react';
 import {Linking} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
+import Config from 'react-native-config';
 
 const useDeepLinking = () => {
   const navigation = useNavigation();
@@ -13,7 +14,7 @@ const useDeepLinking = () => {
 
         if (match && match[1]) {
           const path = match[1];
-          const webViewUrl = `https://www.treebo.com/${path}`;
+          const webViewUrl = `${Config.DEEP_LINK_URL}${path}`;
           navigation.navigate('DETAIL', {url: webViewUrl});
         }
       }
